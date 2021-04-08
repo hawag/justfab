@@ -251,7 +251,7 @@ a {
         display: grid;
         grid-template-columns: 1fr ;
         margin-top: 2em ;
-        justify-content: center;
+        justify-items: center;
         margin-bottom: 2em;
     }
     
@@ -313,20 +313,23 @@ a {
     .bloc1 {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 2;
+        justify-items: center;
 
     } 
-
+/* 
     .fin {
         display: grid;
         grid-column-start: 5;
         grid-column-end: 15;
         text-align: center;
-    }  
+    }   */
 
 
     .bloc2 {
         text-align: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
     }
 
 
